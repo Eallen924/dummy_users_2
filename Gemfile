@@ -20,4 +20,6 @@ gem 'shotgun'
 group :test do
   gem 'faker'
   gem 'rspec'
+  gem 'pry'
+  gem 'awesome_print'
 end
