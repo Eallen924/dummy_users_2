@@ -1,3 +1,7 @@
+<% if @error %>
+  <%= @error %>
+<% else %>
 <h1>Congratulations! Here's your information:</h1>
 <p>Full name: <%= @user.full_name %></p>
 <p>Email address: <%= @user.email %></p>
+<% end %>
